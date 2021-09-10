@@ -30,3 +30,4 @@ res = str(math.log(abs(12*math.sin(int(x)))))
 
 answer = driver.find_element_by_id('answer').send_keys(res)
 button_1 = driver.find_element_by_id('solve').click()
+
